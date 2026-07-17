@@ -1,0 +1,55 @@
+Hi and thank you for downloading my animation pack
+
+I recommend using a viewmodel fov of 60 - 70 for these animations (the max setting for comp mode)
+
+-----------------------------------------------------------------------
+
+/>> INSTALLATION <<\
+
+Take the VPK file and place it your "Steam\steamapps\common\Team Fortress 2\tf\custom" folder
+
+Do the same process when updating the mod 
+
+To get it working in game open the developer console and type "map itemtest" or use the "create a server" option in the "find a game" menu. 
+
+You can choose whichever map to load but itemtest is quickest. 
+
+Select Scout and make sure the animations are working correctly then you can quit to the main menu and play.
+
+-----------------------------------------------------------------------
+
+/>> UNINSTALL <<\
+
+Delete the VPK from the custom folder
+
+-----------------------------------------------------------------------
+
+/>> KNOWN ISSUES <<\
+
+The Shortstops cylinder may not open when reloading or inspecting, this is because you have model settings on low.
+
+The Pretty Boys Pocket Pistol's magazine may stretch when reloading and inspecting, once again this is because you have model settings on low.
+
+The Lugermorph doesn't have a magazine this is Valve's fault.
+
+When reloading the Shortstop, some bullets may fly past the screen for a split second, I'll try to get this fixed.
+
+Some throwable weapons like the Flying Guillotine may return to the idle animation when thrown, this is Valve's problem I can't do anything about it. 
+
+The Sandman didn't get its own Inspect animation so it just uses the Melee one, this is Valve's problem again.
+
+Some audio clips cut out when another audio clip plays (can be heard on the Mutated Milk animations) this is Valve's problem once again and has something to do with the way audio channels are setup (I think).
+
+And the Necro Smasher is just too damn big for the Scout's hands.
+
+-----------------------------------------------------------------------
+
+Special thanks to 
+
+Paysus - For inspiring me to make this pack, and creating the tutorial on how to make custom viewmodel animations.
+
+Pohnut - He said nice words during the production stage.
+
+Jord - Because.
+
+Valve - For making the game that I've played for too long.
