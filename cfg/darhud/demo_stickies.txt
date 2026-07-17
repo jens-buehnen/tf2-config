@@ -1,0 +1,1 @@
+#base ../../custom/darhud/resource/ui/customizations/stickies/centered_stickies.res 
