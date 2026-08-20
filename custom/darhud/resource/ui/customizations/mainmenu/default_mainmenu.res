@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-		"bgcolor_override"	"0 0 0 150"
+//		"bgcolor_override"	"0 0 0 240"
 
 		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"https://www.teamfortress.com/"
@@ -297,7 +297,7 @@
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
-		"ypos"			"-100"
+		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"

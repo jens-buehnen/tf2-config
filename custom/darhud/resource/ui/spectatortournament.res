@@ -14,13 +14,13 @@
 			
 		"team1_player_base_offset_x"				"0"
 		"team1_player_base_x"						"5"
-		"team1_player_base_y"						"180"
+		"team1_player_base_y"						"35"
 		"team1_player_delta_x"						"0"
 		"team1_player_delta_y"						"25"
 			
 		"team2_player_base_offset_x"				"347"
 		"team2_player_base_x"						"0"
-		"team2_player_base_y"						"180"
+		"team2_player_base_y"						"35"
 		"team2_player_delta_x"						"0"
 		"team2_player_delta_y"						"25"
 
@@ -237,30 +237,35 @@
 		
 		if_mvm
 		{		
-			"team1_player_base_offset_x"				"0"
 			"team1_player_base_x"						"5"
-			"team1_player_base_y"						"200"
-			"team1_player_delta_x"						"0"
-			"team1_player_delta_y"						"32"
-			
-			"team2_player_base_offset_x"				"0"
-			"team2_player_base_y"						"280"
-			"team2_player_delta_x"						"0"
-			"team2_player_delta_y"						"-18"
-
+			"team1_player_base_y"						"180"
 		}		
 	}
 
 	"topbar"
 	{
-		"ControlName"								"Panel"
-		"fieldName"									"TopBar"
+		"ControlName"		"Panel"
+		"fieldName"		"TopBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"20"
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"alpha"			"0"
+
+		if_mvm
+		{		
 		"xpos"										"0"
 		"ypos"										"0"
 		"tall"										"0"
 		"wide"										"0"
 		"visible"									"0"
 		"enabled"									"0"
+		}	
 	}
 
 	"topbardark"
@@ -337,7 +342,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"bgcolor_override"	"GreenSolid"
 		"fgcolor"	"GeneralLabel"
 		"paintBackgroundType" "2"
@@ -363,20 +368,24 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_minmode"	"1"
 		"enabled"		"1"
 		"textAlignment"		"west"
 	}
+
 	"ClassOrTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"visible"		"0"
 	}
+
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
+		"xpos"			"r0"
 		
 	}
 	"SwitchCamModeLabel"
@@ -384,36 +393,56 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"visible"		"0"
+		"xpos"			"r0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"visible"		"0"
+		"xpos"			"r0"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"visible"		"0"
+		"xpos"			"r0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"visible"		"0"
+		"xpos"			"r0"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"visible"		"0"
+		"xpos"			"r0"
 	}
+
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"visible"		"0"
+		"fgcolor_override"		"GeneralLabel"
+		"xpos"			"0"
+		"ypos"			"r60"
+		"wide"			"199"
+		"tall"			"50"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textinsetx"	"30"
+		"labelText"		"%tip%"
+		"textAlignment"		"center"
+		"font"			"TF2Default"
+		"wrap"			"1"
+		"bgcolor_override"	"GeneralBackground"
 	}
 	
 	"spectator_extras"
